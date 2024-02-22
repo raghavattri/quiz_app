@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px; 
+  margin: 0;
+  background-color: bisque;
+  height: 100vh;
+}
+
+.quiz-questions {
+  /* height: 100%; */
+  width: 80%;
+  padding: 20px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.quiz-questions .questionTop{
+  background-color: lightgrey;
+}
+.quiz-questions .questionTop h3{
+    padding: .4rem .6rem;
+  border: 1px solid black;
+  width: 3%;
+  text-align: center;
+}
+.quiz-questions .buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 2rem;
+  padding: 1rem;
+  background-color: grey;
+}
+.insideButton{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+.quiz-questions .buttons button{
+  border-radius: .2rem ;
+  border: none;
+  padding: .4rem .6rem;
+  background-color: lightblue;
+}
+.right-panel {
+  width: 20%;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.right-panel h3 {
+  margin-bottom: 10px;
+}
+
+.right-panel ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .8rem;
+}
+
+.right-panel li {
+  margin-bottom: 5px;
+  background-color: lightgrey;
+  width: 8%;
+  padding: .5rem;
+  border: 1px solid black;
+  border-radius: .2rem;
+  text-align: center;
+}
+
+.right-panel li.marked-for-review {
+  background-color: purple;
+  color: white;
+}
+.right-panel li.alreadyAnswered {
+  background-color: green;
+  color: white;
+}
+.link{
+  border: 1px solid black;
+  border-radius: .4rem;
+  text-decoration: none;
+  padding: .5rem;
+}
+
+.score{
+  padding: 2rem;
+}
+
+.home{
+  padding: 2rem;
+}
+.home button{
+  border: 1px solid black;
+  border-radius: .4rem;
+  text-decoration: none;
+  padding: .5rem;
+}
