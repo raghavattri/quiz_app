@@ -1,6 +1,6 @@
 # Online Quiz App
 
-![App Screenshot](https://www.thinkexam.com/images/BG_LAPTOP1.png)
+[ui refernce] : (https://www.thinkexam.com/images/BG_LAPTOP1.png)
 
 ## Description
 
